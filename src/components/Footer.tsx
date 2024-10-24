@@ -3,7 +3,7 @@ import { storeLists } from '@/constants';
 export default function Footer() {
   return (
     <footer className='flex-row items-center justify-center p-4 border-t-2'>
-      <ul className='flex flex-col items-center justify-center gap-8 md:flex-row md:gap-36'>
+      <ul className='flex flex-col items-center justify-center p-8 gap-8 rounded-sm bg-slate-200 md:flex-row md:gap-36'>
         {storeLists.map((store) => (
           <li key={store.key}>
             <dl>
@@ -17,7 +17,7 @@ export default function Footer() {
           </li>
         ))}
       </ul>
-      <div className='flex items-center justify-center text-sm text-muted-foreground bg-muted p-4 rounded-lg mt-10'>
+      <div className='flex items-center justify-center text-sm text-muted-foreground bg-muted p-4 rounded-lg mt-4'>
         © 2024 Sample Website
       </div>
     </footer>

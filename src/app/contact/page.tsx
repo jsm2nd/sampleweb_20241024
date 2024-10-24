@@ -1,8 +1,8 @@
 export default function ContactPage() {
   return (
-    <div className='p-8 h-screen'>
+    <div className='p-4 h-screen'>
       <div className='flex flex-col items-center justify-center py-4 rounded-sm bg-slate-400'>
-        <h1 className='text-3xl font-bold'>- Contct -</h1>
+        <h1 className='text-3xl font-bold'>- Contact -</h1>
         <p className='text-xl'>お問い合わせ</p>
       </div>
       <div className='flex flex-col items-center justify-center py-8'>

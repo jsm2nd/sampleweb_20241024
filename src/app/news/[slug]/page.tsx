@@ -21,7 +21,7 @@ type Props = {
 export default async function Page({ params }: Props) {
   const data = await getNewsDetail(params.slug);
   return (
-    <div className='flex flex-col items-center p-8 gap-4 border-t-8 border-b-8'>
+    <div className='flex flex-col items-center p-4 gap-4 '>
       <Card>
         <CardHeader>
           <CardTitle>{data.title}</CardTitle>

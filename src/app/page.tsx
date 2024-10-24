@@ -10,7 +10,7 @@ export default async function Home() {
         <h2 className='text-3xl font-bold'>- Home -</h2>
         <p className='text-xl'>Welcome to Our WebSite</p>
       </div>
-      <div className='py-4'>
+      <div className=''>
         <NewsList news={data.contents} />
       </div>
       <div></div>

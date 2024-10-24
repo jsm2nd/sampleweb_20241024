@@ -50,13 +50,6 @@ export default function NewsList({ news }: Props) {
                   />
                 )}
               </CardContent>
-              <CardContent>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: article.content,
-                  }}
-                />
-              </CardContent>
               <CardFooter>
                 <Category category={article.category} />
                 <DateTime date={article.publishedAt ?? article.createdAt} />

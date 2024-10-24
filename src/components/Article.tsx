@@ -45,6 +45,7 @@ export default function Article({ data }: Props) {
         </CardContent>
         <CardContent>
           <div
+            className='prose'
             dangerouslySetInnerHTML={{
               __html: data.content,
             }}

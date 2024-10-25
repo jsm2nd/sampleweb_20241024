@@ -1,9 +1,9 @@
 import NewsList from '@/components/NewsList';
-import { TOP_NEWS_LIMIT } from '@/constants';
+import { NEWS_LIST_LIMIT } from '@/constants';
 import { getNewsList } from '@/lib/microcms';
 
 export default async function NewsPage() {
-  const data = await getNewsList({ limit: TOP_NEWS_LIMIT });
+  const data = await getNewsList({ limit: NEWS_LIST_LIMIT });
   return (
     <div className='p-4'>
       <div className='flex flex-col items-center justify-center py-4 rounded-sm bg-slate-400'>
